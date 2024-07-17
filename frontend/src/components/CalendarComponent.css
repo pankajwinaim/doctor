@@ -1,0 +1,68 @@
+.calendar-component {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 250px;
+    margin-left: 100px;
+    gap: 10px;
+}
+
+.calendar-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.appointment-list {
+    flex: 2;
+    min-width: 300px;
+}
+
+.appointment-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.appointment-list th, .appointment-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.appointment-list th {
+    background-color: #f2f2f2;
+}
+
+.appointment-list .expired {
+    background-color: #f8d7da;
+}
+
+.appointment-list .running {
+    background-color: #d4edda;
+}
+
+.appointment-list .upcoming {
+    background-color: #fff3cd;
+}
+
+.appointment-form {
+    margin-top: 20px;
+}
+
+.appointment-form .form-group {
+    margin-bottom: 15px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.appointment-form button {
+    margin-right: 10px;
+    padding: 10px 20px;
+}
